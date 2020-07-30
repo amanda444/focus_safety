@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("imagem-2.jpg");
+  margin:10px;
+}
+
+#topo {
+  display: block;
+  font-family:'Playfair Display SC', serif;
+  height: 200px;
+  padding:10px;
+  border-top: 4px solid #ECF1C0;
+  border-bottom: 4px solid #ECF1C0;
+  border-radius: 4px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align:center;
+
+  background-color: #A4B62F;
+  background-image: url("imagem-1.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+
+h1 {
+  font-family:'Playfair Display SC', serif;
+  font-size: 50px;
+  color: #093426;
+  text-shadow: 3px 3px 2px lightgrey;
+}
+
+h2{
+  font-family:'Playfair Display SC', serif;
+  font-size: 30px;
+  color: #467767;
+  text-shadow: 2px 2px 1px lightgrey;
+  }
+
+h3{
+  font-family:'Playfair Display SC', serif;
+  font-size: 20px;
+  color: #093426;
+}
+
+img{
+  max-width: 80%;
+  align: left;
+  padding: 8px;
+  max-height: 200px;
+  float: left;
+}
+
+.contem{
+  text-align: center;
+  border-color: #ccc;
+  border-radius: 8px;
+  border: 5px solid;
+  padding:15px;
+  margin: 16px;
+  background-color: #ECF1C0;
+
+  font-family: 'Baloo 2', cursive;
+  font-size-adjust: center;
+}
+
+.contem2{
+  text-align: center;
+  border-color: #ccc;
+  border-radius: 8px;
+  border: 5px solid;
+  padding:15px;
+  margin: 16px;
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  background-color: #ECF1C0;
+
+  font-family: 'Baloo 2', cursive;
+  font-size-adjust: center;
+}
+nav {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 7px;
+}
+
+nav > a{
+  text-decoration: none;
+  text-align: center;
+  color: #A4B62F;
+
+  font-size: 20px;
+  font-family: 'Baloo 2', cursive;
+  font-size-adjust: center;
+  font-display: block;
+
+  padding: 18px;
+
+  border-bottom: 3px solid #A4B62F;
+  border-top: 3px solid #A4B62F;
+  border-radius: 8px;
+
+  background-color: #093426;
+}
+
+a:hover{
+  background-color: #467767;
+  text-decoration: underline;
+}
+
+.bruno{
+  color: #092834;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+#conteudo{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+a {
+text-decoration: none;
+text-align: center;
+color: #A4B62F;
+
+font-size: 12px;
+font-family: 'Baloo 2', cursive;
+font-size-adjust: center;
+font-display: block;
+
+border-radius: 8px;
+padding: 10px;
+background-color: #093426;
+}
+
+#treinamentos{
+  display: grid;
+  font-family: 'Baloo 2', cursive;
+  max-width: 100%;
+  margin: 25px 50px;
+  background-color: #F0F7D4;
+  text-align:center;
+  align: center;
+  padding: 38px;
+
+  border-radius: 8px;
+  border-color: #ccc;
+  }
+
+
+
+small {
+  font-family: 'Baloo 2', cursive;
+  display: block;
+  font-size: 22px;
+  color:#A4B62F;
+  padding: 30px;
+  margin: 16px;
+  text-align: center;
+  background-color: #093426;
+  border-radius: 8px;
+  border-top: 4px solid #ECF1C0;
+  border-bottom: 4px solid #ECF1C0;
+  }
